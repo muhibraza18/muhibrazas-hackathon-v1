@@ -38,7 +38,7 @@ const Footer = () => {
               className="h-11"
             />
             <Image
-              src="/instagram.png"
+              src="/Instagram.png"
               width={38}
               height={38}
               alt="Image"

@@ -16,8 +16,8 @@ const cart = () => {
           <div className="text-gray-500 mt-6">Ashen Slate/Cobalt Bliss</div>
           <div className="text-gray-500 gap-5"><span>Size L </span> <span className="ml-7">Quantity 1 </span></div>
         <div className="flex gap-3 mt-5">
-        <Image src="/Logo8.png" width={24} height={24} alt="Image" />
-        <Image src="/Logo9.png" width={24} height={24} alt="Image" />
+        <Image src="/logo8.png" width={24} height={24} alt="Image" />
+        <Image src="/logo9.png" width={24} height={24} alt="Image" />
         </div>
         </div>
         <div className="text-[#111111] ml-[20vw]">MRP: $99</div>
@@ -32,8 +32,8 @@ const cart = () => {
           <div className="text-gray-500 mt-6">Ashen Slate/Cobalt Bliss</div>
           <div className="text-gray-500 gap-5"><span>Size L </span> <span className="ml-7">Quantity 1 </span></div>
         <div className="flex gap-3 mt-5">
-        <Image src="/Logo8.png" width={24} height={24} alt="Image" />
-        <Image src="/Logo9.png" width={24} height={24} alt="Image" />
+        <Image src="/logo8.png" width={24} height={24} alt="Image" />
+        <Image src="/logo9.png" width={24} height={24} alt="Image" />
         </div>
         </div>
         <div className="text-[#111111] ml-[20vw]">MRP: $99</div>

@@ -18,7 +18,7 @@ const page = () => {
         <div>
           <div className="flex gap-5">
             <div>
-              <Image src="/Logo10.png" width={22} height={27} alt="Image" />
+              <Image src="/logo10.png" width={22} height={27} alt="Image" />
             </div>
             <div className="w-[30vw] sm:w-[20vw] xl:w-[10vw]">
                 <div className="text-lg font-bold">Address</div>
@@ -28,7 +28,7 @@ const page = () => {
 
           <div className="flex gap-5 mt-10">
             <div>
-              <Image src="/Logo10.png" width={22} height={27} alt="Image" />
+              <Image src="/logo11.png" width={22} height={27} alt="Image" />
             </div>
             <div className="w-[30vw] sm:w-[20vw] xl:w-[10vw]">
                 <div className="text-lg font-bold">Phone</div>
@@ -40,7 +40,7 @@ const page = () => {
 
           <div className="flex gap-5 mt-10">
             <div>
-              <Image src="/Logo10.png" width={22} height={27} alt="Image" />
+              <Image src="/logo12.png" width={22} height={27} alt="Image" />
             </div>
             <div className="w-[30vw] sm:w-[20vw] xl:w-[10vw]">
                 <div className="text-lg font-bold">Working Time</div>
