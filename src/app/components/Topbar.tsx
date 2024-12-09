@@ -4,13 +4,13 @@ import React from "react";
 
 const Topbar = () => {
   return (
-    <div className="w-full bg-[#272343] text-gray-500 justify-around h-[45px]">
+    <div className="w-full bg-[#272343] text-sm xl:text-base text-gray-500 justify-around xl:h-[45px] h-[60px]">
       <div className="flex justify-around items-center pt-2">
         <div className="flex gap-1 items-center">
           <Image src="/tick.png" width={20} height={15} alt="Image" />
           Free shipping on all orders over $50
         </div>
-        <div className="flex gap-10">
+        <div className="flex gap-2 xl:gap-10">
           <div>
             <select
               id="dropdown"

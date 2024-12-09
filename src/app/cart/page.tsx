@@ -3,11 +3,11 @@ import React from "react";
 
 const cart = () => {
   return (
-    <div className="flex gap-10">
+    <div className="lg:flex lg:gap-10">
       <div className="ml-[18vw]">
         <div className="text-lg mt-10 mb-5 ">Bag</div>
 
-        <div className="flex gap-3 pb-10 mb-10 border-b-2">
+        <div className="md:flex gap-3 pb-10 mb-10 border-b-2">
         <div className="">
           <Image src="/card3.png" width={150} height={150} alt="Image" />
         </div>
@@ -23,7 +23,7 @@ const cart = () => {
         <div className="text-[#111111] ml-[20vw]">MRP: $99</div>
         </div>
 
-        <div className="flex gap-3 pb-10 mb-10 border-b-2">
+        <div className="md:flex gap-3 pb-10 mb-10 border-b-2">
         <div className="">
           <Image src="/card10.png" width={150} height={150} alt="Image" />
         </div>
@@ -39,7 +39,7 @@ const cart = () => {
         <div className="text-[#111111] ml-[20vw]">MRP: $99</div>
         </div>
       </div>
-      <div className="w-[400px]">
+      <div className="w-[300px] xl:w-[400px] ml-14 xl:ml-0">
         <div className="text-2xl font-bold mt-20">Summary</div>
         <div className="text-base mt-10 flex ">
         <span>Subtotal</span> 
@@ -54,7 +54,7 @@ const cart = () => {
           <span>total</span> 
         <span className="font-bold ml-40"> $198.00</span>
           </div>
-          <button className="text-white bg-[#029FAE] p-5 pl-14 pr-14 mt-10 rounded-[40px]">Member Checkout</button>
+          <button className="text-white mb-10 lg:mb-0 bg-[#029FAE] p-5 pl-14 pr-14 mt-10 rounded-[40px]">Member Checkout</button>
       </div>
     </div>
   );

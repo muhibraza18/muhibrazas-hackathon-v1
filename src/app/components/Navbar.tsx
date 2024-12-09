@@ -18,7 +18,7 @@ const Navbar = () => {
         </div>
       </div>
       <div>
-        <nav className="flex justify-around text-[#636270] h-16 border-2 items-center">
+        <nav className="flex justify-around text-sm xl:text-base gap-2 text-[#636270] h-16 border-2 items-center">
             <ul className="flex gap-5 items-center font-thin-100 cursor-pointer">
                 <Link href="/" className="hover:text-[#007580] focus:text-[#007580]">Home</Link>
                 <Link href="/" className="hover:text-[#007580] focus:text-[#007580]">Shop</Link>
@@ -27,7 +27,7 @@ const Navbar = () => {
                 <Link href="/about" className="hover:text-[#007580] focus:text-[#007580]">About</Link>
             </ul>
             <ul className="items-center cursor-pointer">
-                <Link href="/contact" className="hover:text-[#007580] focus:text-[#007580]">Contact:  <span className="font-bold"> (808) 555-0111</span></Link>
+                <Link href="/contact" className="hover:text-[#007580] focus:text-[#007580]">Contact:  <span className="font-bold hidden md:inline-block"> (808) 555-0111</span></Link>
             </ul>
         </nav>
       </div>
